@@ -1,7 +1,7 @@
 NAPOMENA: Ukoliko dobijete error "maximum execution time of 120 seconds exceeded".
 Potrebno je u datoteci php.ini (putanja: c/wamp/bin/php/phpX_verzija/php.ini) promijeniti max_execution_time sa 120 na 500 (može i 999).
 Dodatno, budući da je program dosta velik ali i dosta spor, u index.php je zakomentiran jedan if, koji vrti samo kroz određen broj
-pjesama. Svakako preporučam ako budete testirali, slobodno maknite komentare jer bez njih se zna vrtjeti po 5 minuta dok ne dobijete
+pjesama. Svakako preporučam kada budete testirali, slobodno maknite komentare jer bez njih se zna vrtjeti po 5 minuta dok ne dobijete
 rezultat, a kada sam radio program, svaki puta čekati po 5-6 minuta da dobijem error nije bilo zabavno.
 
 Datoteka NRC-Emotion-Lexicon-Wordlevel-v0.92.txt sadrži oko 14000 riječi koje mogu imati nula ili više osjećaja
